@@ -1,0 +1,5 @@
+<resources>
+    <color name="dark_gray">#333333</color>
+    <color name="crop_exterior">#66000000</color>
+    <color name="crop_border">#000000</color>
+</resources>

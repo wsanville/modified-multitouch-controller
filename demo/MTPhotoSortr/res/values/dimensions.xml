@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="crop_width">300dp</dimen>
+    <dimen name="crop_height">225dp</dimen>
+    <dimen name="crop_border_thickness">2dp</dimen>
+</resources>
