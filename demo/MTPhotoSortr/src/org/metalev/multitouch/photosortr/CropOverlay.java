@@ -2,9 +2,7 @@ package org.metalev.multitouch.photosortr;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.Rect;
+import android.graphics.*;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -47,6 +45,7 @@ public class CropOverlay extends View
         borderPaint = new Paint();
         borderPaint.setColor(resources.getColor(R.color.crop_border));
         borderPaint.setStyle(Paint.Style.STROKE);
+        borderPaint.setPathEffect(new DashPathEffect(new float[] { strokeWidth, 2 * strokeWidth }, 0));
         borderPaint.setStrokeWidth(strokeWidth);
 
         exteriorPaint = new Paint();
